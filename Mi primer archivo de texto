@@ -1,0 +1,18 @@
+Hola, este es mi primer archivo de texto
+CREATE DATABASE ParaiZooHuesped;
+USE ParaiZooHuesped;
+
+CREATE TABLE ParaiZooHuesped (
+animal VARCHAR(100),
+nombre VARCHAR (100),
+sexo VARCHAR (10),
+fechanacimiento DATE,
+especie VARCHAR (100),
+fechaincorporacion DATE,
+comidakgdiario DECIMAL (10, 2),
+pesoinicial INT,
+jaula VARCHAR(10)
+);
+
+SELECT * FROM ParaiZooHuesped;
+DROP TABLE ParaiZooHuesped;
